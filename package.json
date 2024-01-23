@@ -1,16 +1,28 @@
 {
-    "name": "canvacore",
-    "version": "1.9.6-9.dev",
-    "description": "Powerful image manipulation tool written in javascript.",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "uitgeteld/naive",
-    "keywords": ["canvacore", "canvas", "manipulation", "image", "simple", "easy", "welcomer"],
-    "license": "MIT",
-    "dependencies": {
-      "canvas": "^2.11.2",
-      "color": "^4.2.3"
-    }
+  "name": "canvacore",
+  "version": "1.9.9-dev",
+  "description": "Powerful image manipulation tool written in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SynthesisLabs/canvacore"
+  },
+  "author": "uitgeteld/naive",
+  "keywords": [
+    "canvacore",
+    "canvas",
+    "manipulation",
+    "image",
+    "simple",
+    "easy",
+    "welcomer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "color": "^4.2.3"
   }
+}
