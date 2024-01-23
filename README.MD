@@ -24,5 +24,5 @@ const card = await new RankCard()
     .setLevel(data.level)
     .build()
 
-    // Do whatever you want with the card ->
+// Do whatever you want with the card ->
 ```
