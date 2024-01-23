@@ -10,8 +10,19 @@ Powerful image manipulation tool written in javascript.
 $ npm install --save canvacore
 ```
 
-## Example Welcomer
+## Example RankCard
 
 ```js
-**CURRENTLY UPDATING AND REWRITING CANVACORE AFTER 3 YEARS!**
+const { RankCard } = require("canvacore");
+const data = require("Get your data somehow");
+
+const card = await new RankCard()
+    .setUsername(username)
+    .setAvatar(avatar)
+    .setCurrentXP(data.currentXP)
+    .setRequiredXP(data.requiredXP)
+    .setLevel(data.level)
+    .build()
+
+    // Do whatever you want with the card ->
 ```
